@@ -254,6 +254,82 @@ img {
   margin-bottom: 54px;
 }
 
+.classic {
+  padding: 64px 0 80px 0;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.classic .title {
+  font-size: 48px;
+  line-height: 72px;
+  font-weight: bolder;
+  color: #650300;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.classic .d-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.classic .d-flex .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.classic .d-flex .right span {
+  margin-right: 8px;
+}
+
+.classic .d-flex .right p {
+  font-size: 48px;
+  line-height: 72px;
+  color: #AA0601;
+  font-weight: bolder;
+  font-style: italic;
+}
+
+.classic .d-flex:nth-child(1) .left {
+  background: url(../img/optical.png) no-repeat;
+  width: 792px;
+  height: 320px;
+  margin-bottom: 32px;
+  margin-right: 24px;
+}
+
+.classic .d-flex:nth-child(2) .left {
+  background: url(../img/sunglasses.png) no-repeat;
+  width: 792px;
+  height: 320px;
+  margin-bottom: 32px;
+  margin-left: 24px;
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+}
+
+.classic .d-flex:nth-child(2) .left:hover {
+  cursor: pointer;
+  background: url(../img/sunglasses-hover.png);
+}
+
+.classic .d-flex:nth-child(3) .left {
+  background: url(../img/functional.png) no-repeat;
+  width: 792px;
+  height: 320px;
+  margin-right: 24px;
+}
+
 @media (max-width: 768px) {
   .banner .ps-absolute .title-top {
     font-size: 20px;
@@ -295,6 +371,52 @@ img {
     -webkit-box-ordinal-group: 3;
         -ms-flex-order: 2;
             order: 2;
+  }
+  .classic {
+    padding: 40px 0;
+    max-width: 90%;
+  }
+  .classic .title {
+    font-size: 32px;
+    line-height: 48px;
+    margin-bottom: 32px;
+  }
+  .classic .d-flex .right span img {
+    width: 32px;
+    height: 25px;
+  }
+  .classic .d-flex .right p {
+    font-size: 28px;
+    line-height: 42px;
+  }
+  .classic .d-flex:nth-child(1) .left {
+    width: 410px;
+    height: 168px;
+    background-size: cover;
+    margin-right: 65px;
+    margin-bottom: 8px;
+  }
+  .classic .d-flex:nth-child(2) .left {
+    width: 410px;
+    height: 168px;
+    background-size: cover;
+    -webkit-box-ordinal-group: 1;
+        -ms-flex-order: 0;
+            order: 0;
+    margin-left: 0;
+    margin-right: 65px;
+    margin-bottom: 8px;
+  }
+  .classic .d-flex:nth-child(2) .left:hover {
+    width: 410px;
+    height: 168px;
+    background-size: cover;
+  }
+  .classic .d-flex:nth-child(3) .left {
+    width: 410px;
+    height: 168px;
+    background-size: cover;
+    margin-right: 65px;
   }
 }
 
