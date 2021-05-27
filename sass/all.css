@@ -197,6 +197,63 @@ img {
   font-weight: bolder;
 }
 
+.about {
+  background: rgba(170, 6, 1, 0.051);
+  padding: 64px 0 80px 0;
+}
+
+.about .ab-title {
+  font-size: 48px;
+  line-height: 72px;
+  color: #650300;
+  font-weight: bolder;
+  text-align: center;
+  margin-bottom: 44px;
+}
+
+.about .d-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.about .d-flex .box {
+  width: 20%;
+}
+
+.about .d-flex .box .box-img {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.about .d-flex .box .box-text {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.about .d-flex .box .box-text .box-title {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: bolder;
+  color: #650300;
+  text-align: center;
+}
+
+.about .d-flex .box .box-text p:nth-child(2) {
+  padding: 0 37px;
+}
+
+.about .d-flex .box:nth-child(3) .box-img {
+  margin-bottom: 42px;
+}
+
+.about .d-flex .box:nth-child(4) .box-img {
+  margin-bottom: 54px;
+}
+
 @media (max-width: 768px) {
   .banner .ps-absolute .title-top {
     font-size: 20px;
@@ -205,6 +262,39 @@ img {
   .banner .ps-absolute .title-bottom {
     font-size: 48px;
     line-height: 72px;
+  }
+  .about {
+    padding-top: 40px;
+  }
+  .about .ab-title {
+    font-size: 32px;
+    line-height: 48px;
+    margin-bottom: 12px;
+  }
+  .about .d-flex {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .about .d-flex .box {
+    width: 40%;
+    margin-bottom: 40px;
+  }
+  .about .d-flex .box .box-img {
+    margin-bottom: 16px;
+  }
+  .about .d-flex .box .box-text p:nth-child(2) {
+    padding: 0 50px;
+  }
+  .about .d-flex .box:nth-child(3) .box-img {
+    margin-bottom: 20px;
+  }
+  .about .d-flex .box:nth-child(4) .box-img {
+    margin-bottom: 27px;
+  }
+  .about .d-flex .order {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
   }
 }
 
@@ -224,6 +314,32 @@ img {
   .banner .ps-absolute .title-bottom {
     font-size: 32px;
     line-height: 72px;
+  }
+  .about {
+    padding: 32px 0 48px 0;
+  }
+  .about .ab-title {
+    font-size: 24px;
+    line-height: 48px;
+  }
+  .about .d-flex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .about .d-flex .box {
+    width: 90%;
+  }
+  .about .d-flex .box .box-img img {
+    width: 80px;
+    height: 80px;
+  }
+  .about .d-flex .box .box-text p:nth-child(2) {
+    padding: 0 64px;
   }
 }
 /*# sourceMappingURL=all.css.map */
