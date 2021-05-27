@@ -1,0 +1,105 @@
+.banner{
+    background: url(../img/banner.png) no-repeat;
+    height: 840px;
+    background-position: top center;
+    background-size: cover;
+    position: $ps-relative;
+    .ps-absolute{
+        position: $ps-absolute;
+        top: 40%;
+        right: 10%;
+        .title-top{
+            font-size: 36px;
+            line-height: 54px;
+            color: $brown;
+            text-align: right;
+        }
+        .title-bottom{
+            font-size: 64px;
+            line-height: 96px;
+            color: #650300;
+            font-weight: bolder;
+        }
+    }
+}
+
+.about{
+    background: rgba(170, 6, 1, 0.051);
+    padding: 64px 0 80px 0;
+    .ab-title{
+        color: $brown;
+        font-size: 48px;
+        line-height: 72px;
+        font-weight: bolder;
+        text-align: center;
+        margin-bottom: 64px;
+    }
+    .d-flex{
+        display: $ds-flex;
+        justify-content: $jc-center;
+        flex-wrap: wrap;
+        .box{
+            padding: 16px 0;
+            display: $ds-flex;
+            flex-direction: $fxd-column;
+            align-items: $ai-center;
+            .box-img-a{
+                margin-bottom: 40px;
+            }
+            .box-img-b{
+                margin-bottom: 42px;
+            }
+            .box-img-c{
+                margin-bottom: 54px;
+            }
+            .box-title{
+                text-align: center;
+                color: $brown;
+                font-weight: bolder;
+                font-size: 24px;
+                line-height: 36px;
+            }
+            p{
+                font-size: 16px;
+                line-height: 24px;
+                margin: 0 37px;
+            }
+        }
+    }
+}
+
+@media (max-width:768px){
+    .banner .ps-absolute .title-top{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .banner .ps-absolute .title-bottom{
+        font-size: 48px;
+        line-height: 72px;
+    }
+    .about .d-flex .box{
+        width: 50%; 
+    }
+    .about .d-flex .box:nth-child(1){
+        order:2;
+    }
+}
+
+@media (max-width:767px){
+    .banner{
+        height: 394px;
+        background-position: center;
+        background-size: cover;
+        .ps-absolute{
+            right: 2%;
+            .title-top{
+                font-size: 16px;
+                line-height: 30px;
+            }
+            .title-bottom{
+                font-size: 32px;
+                line-height: 72px;
+            }
+        }
+    }
+}
