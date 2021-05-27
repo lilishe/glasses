@@ -37,7 +37,6 @@
     .d-flex{
         display: $ds-flex;
         justify-content: $jc-center;
-        flex-wrap: wrap;
         .box{
             padding: 16px 0;
             display: $ds-flex;
@@ -77,11 +76,14 @@
         font-size: 48px;
         line-height: 72px;
     }
-    .about .d-flex .box{
-        width: 50%; 
-    }
-    .about .d-flex .box:nth-child(1){
-        order:2;
+    .about .d-flex{
+        flex-wrap: wrap;
+        .box{
+            width: 50%;
+        }
+        .box:nth-child(1){
+            order: 2;
+        }
     }
 }
 
