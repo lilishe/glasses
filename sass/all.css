@@ -625,5 +625,11 @@ img {
   .design .container .d-flex .right img {
     margin-bottom: 2px;
   }
+  .design .container .d-flex .right .d-flex .right .more .more-link {
+    font-size: 26px;
+    line-height: 20px;
+    padding: 5px 8px 5px 12px;
+    top: 13%;
+  }
 }
 /*# sourceMappingURL=all.css.map */
