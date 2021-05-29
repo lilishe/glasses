@@ -129,6 +129,40 @@
         margin-right: 24px;
     }
 }
+.design{
+    background: url(../img/design-bg.png) no-repeat;
+    padding: 64px 0 479px;
+    background-size: cover;
+    .container{
+        max-width: 1200px;
+        margin: 0 auto;
+        .title{
+            font-size: 48px;
+            line-height: 72px;
+            color: $white;
+            font-weight: bolder;
+            text-align: center;
+        }
+        .d-flex{
+            display: $ds-flex;
+            .left{
+               margin-right: 8px;
+            }
+            .right{
+                img{
+                    margin-bottom: 8px;
+                }
+                .d-flex{
+                    display: $ds-flex;
+                    .left img{
+                        height: 292px;
+                    }
+                }
+            }
+        }
+    }
+}
+
 
 @media (max-width:768px){
     .banner .ps-absolute{

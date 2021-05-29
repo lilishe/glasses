@@ -334,6 +334,49 @@ img {
   margin-right: 24px;
 }
 
+.design {
+  background: url(../img/design-bg.png) no-repeat;
+  padding: 64px 0 479px;
+  background-size: cover;
+}
+
+.design .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.design .container .title {
+  font-size: 48px;
+  line-height: 72px;
+  color: #fff;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.design .container .d-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.design .container .d-flex .left {
+  margin-right: 8px;
+}
+
+.design .container .d-flex .right img {
+  margin-bottom: 8px;
+}
+
+.design .container .d-flex .right .d-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.design .container .d-flex .right .d-flex .left img {
+  height: 292px;
+}
+
 @media (max-width: 768px) {
   .banner .ps-absolute .title-top {
     font-size: 20px;
