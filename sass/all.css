@@ -291,6 +291,10 @@ img {
   margin-right: 8px;
 }
 
+.classic .d-flex .right span .icon-sm {
+  display: none;
+}
+
 .classic .d-flex .right p {
   font-size: 48px;
   line-height: 72px;
@@ -462,6 +466,44 @@ img {
   }
   .about .d-flex .box .box-text p:nth-child(2) {
     padding: 0 64px;
+  }
+  .classic {
+    padding: 24px 0;
+    max-width: 95%;
+  }
+  .classic .title {
+    font-size: 24px;
+    line-height: 48px;
+    margin-bottom: 16px;
+  }
+  .classic .d-flex .right {
+    position: absolute;
+    left: 40%;
+  }
+  .classic .d-flex .right span .icon {
+    display: none;
+  }
+  .classic .d-flex .right span .icon-sm {
+    display: block;
+  }
+  .classic .d-flex .right p {
+    color: #fff;
+  }
+  .classic .d-flex:nth-child(2) .right {
+    left: 20%;
+  }
+  .classic .d-flex:nth-child(3) .right {
+    left: 25%;
+  }
+  .classic .d-flex:nth-child(1) .left, .classic .d-flex:nth-child(2) .left, .classic .d-flex:nth-child(3) .left {
+    position: relative;
+    width: 100%;
+    margin-right: 0;
+    height: 134px;
+  }
+  .classic .d-flex:nth-child(2) .left:hover {
+    width: 100%;
+    height: 134px;
   }
 }
 /*# sourceMappingURL=all.css.map */
