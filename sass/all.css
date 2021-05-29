@@ -351,6 +351,7 @@ img {
   color: #fff;
   font-weight: bolder;
   text-align: center;
+  margin-bottom: 60px;
 }
 
 .design .container .d-flex {
@@ -373,8 +374,46 @@ img {
   display: flex;
 }
 
-.design .container .d-flex .right .d-flex .left img {
-  height: 292px;
+.design .container .d-flex .right .d-flex .left .pic-d {
+  display: none;
+}
+
+.design .container .d-flex .right .d-flex .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.design .container .d-flex .right .d-flex .right .pic-c {
+  display: none;
+}
+
+.design .container .d-flex .right .d-flex .right .more {
+  background: #fed301;
+  width: 40%;
+  height: 43%;
+  margin-right: 70px;
+  position: relative;
+}
+
+.design .container .d-flex .right .d-flex .right .more .more-link {
+  background: #fff;
+  position: absolute;
+  font-size: 72px;
+  line-height: 60px;
+  text-decoration: none;
+  color: #AA0601;
+  font-weight: bolder;
+  padding: 10px 17px 10px 32px;
+  top: 15%;
+  right: -20%;
 }
 
 @media (max-width: 768px) {
@@ -465,6 +504,27 @@ img {
     background-size: cover;
     margin-right: 65px;
   }
+  .design {
+    padding: 40px 0 417px 0;
+  }
+  .design .container {
+    max-width: 700px;
+  }
+  .design .container .title {
+    font-size: 32px;
+    line-height: 48px;
+    margin-bottom: 32px;
+  }
+  .design .container .d-flex .left {
+    margin-right: 3px;
+  }
+  .design .container .d-flex .right img {
+    margin-bottom: 3px;
+  }
+  .design .container .d-flex .right .d-flex .right .more .more-link {
+    font-size: 40px;
+    line-height: 30px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -547,6 +607,23 @@ img {
   .classic .d-flex:nth-child(2) .left:hover {
     width: 100%;
     height: 134px;
+  }
+  .design {
+    padding: 24px 0 189px 0;
+  }
+  .design .container {
+    max-width: 90%;
+  }
+  .design .container .title {
+    margin-bottom: 16px;
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .design .container .d-flex .left {
+    margin-right: 2px;
+  }
+  .design .container .d-flex .right img {
+    margin-bottom: 2px;
   }
 }
 /*# sourceMappingURL=all.css.map */

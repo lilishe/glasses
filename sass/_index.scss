@@ -142,11 +142,13 @@
             color: $white;
             font-weight: bolder;
             text-align: center;
+            margin-bottom: 60px;
         }
         .d-flex{
             display: $ds-flex;
             .left{
                margin-right: 8px;
+               
             }
             .right{
                 img{
@@ -154,8 +156,35 @@
                 }
                 .d-flex{
                     display: $ds-flex;
-                    .left img{
-                        height: 292px;
+                    .left .pic-d{
+                        display: none;
+                    }
+                    .right{
+                        display: $ds-flex;
+                        flex-direction: $fxd-column;
+                        align-items:$ai-end;
+                        .pic-c{
+                            display: none;
+                        }
+                        .more{
+                            background: #fed301;
+                            width: 40%;
+                            height: 43%;
+                            margin-right: 70px;
+                            position: $ps-relative;
+                            .more-link{
+                                background: #fff;
+                                position: $ps-absolute;
+                                font-size: 72px;
+                                line-height: 60px;
+                                text-decoration: none;
+                                color: $danger;
+                                font-weight: bolder;
+                                padding: 10px 17px 10px 32px;
+                                top: 15%;
+                                right: -20%;
+                            }
+                        }
                     }
                 }
             }
@@ -252,7 +281,32 @@
             background-size: cover;
             margin-right: 65px;
         }
-    }   
+    }
+    .design{
+        padding: 40px 0 417px 0;
+        .container{
+            max-width: 700px;
+            .title{
+                font-size: 32px;
+                line-height: 48px;
+                margin-bottom: 32px;
+            }
+            .d-flex{
+                .left{
+                    margin-right: 3px;
+                }
+                .right{
+                    img{
+                        margin-bottom: 3px;
+                    }
+                    .d-flex .right .more .more-link{
+                        font-size: 40px;
+                        line-height: 30px;
+                    }
+                }
+            }
+        }
+    }
 }
 
 @media (max-width:767px){
@@ -333,6 +387,27 @@
         .d-flex:nth-child(2) .left:hover{
             width: 100%;
             height: 134px;
+        }
+    }
+    .design{
+        padding: 24px 0 189px 0;
+        .container{
+            max-width: 90%;
+            .title{
+                margin-bottom: 16px;
+                font-size: 24px;
+                line-height: 36px;
+            }
+            .d-flex{
+                .left{
+                    margin-right: 2px;
+                }
+                .right{
+                    img{
+                        margin-bottom: 2px;
+                    }
+                } 
+            } 
         }
     }
 }
