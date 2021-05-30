@@ -412,8 +412,11 @@
                         padding: 5px 8px 5px 12px;
                         top: 13%;
                     }
-                } 
-            } 
+                }
+            }
+            .pic{
+                display: $ds-flex;
+            }
         }
     }
 }

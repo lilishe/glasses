@@ -631,5 +631,10 @@ img {
     padding: 5px 8px 5px 12px;
     top: 13%;
   }
+  .design .container .pic {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
 }
 /*# sourceMappingURL=all.css.map */
