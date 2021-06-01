@@ -358,6 +358,7 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  position: relative;
 }
 
 .design .container .d-flex .left {
@@ -414,6 +415,66 @@ img {
   padding: 10px 17px 10px 32px;
   top: 15%;
   right: -20%;
+}
+
+.design .container .design-adv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 60px;
+}
+
+.design .container .design-adv .double {
+  background: url(../img/design-e.png);
+  width: 585px;
+  height: 592px;
+  opacity: .8;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.design .container .design-adv .double .title {
+  color: #AA0601;
+  font-size: 72px;
+  line-height: 108px;
+}
+
+.design .container .design-adv .double:hover {
+  opacity: 1;
+}
+
+.design .container .design-adv .youth {
+  background: url(../img/design-f.png);
+  width: 585px;
+  height: 592px;
+  opacity: .6;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 30px;
+}
+
+.design .container .design-adv .youth .title {
+  color: #AA0601;
+  font-size: 72px;
+  line-height: 108px;
+}
+
+.design .container .design-adv .youth:hover {
+  opacity: 1;
 }
 
 @media (max-width: 768px) {
@@ -525,6 +586,18 @@ img {
     font-size: 40px;
     line-height: 30px;
   }
+  .design .container .design-adv {
+    margin-top: 40px;
+  }
+  .design .container .design-adv .double, .design .container .design-adv .youth {
+    width: 322px;
+    height: 280px;
+    background-size: cover;
+  }
+  .design .container .design-adv .double .title, .design .container .design-adv .youth .title {
+    font-size: 32px;
+    line-height: 25px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -631,10 +704,17 @@ img {
     padding: 5px 8px 5px 12px;
     top: 13%;
   }
-  .design .container .pic {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+  .design .container .design-adv {
+    margin-top: 20px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .design .container .design-adv .youth, .design .container .design-adv .double {
+    margin-left: 0;
+    width: 100%;
+    margin-bottom: 20px;
   }
 }
 /*# sourceMappingURL=all.css.map */

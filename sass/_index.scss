@@ -146,9 +146,9 @@
         }
         .d-flex{
             display: $ds-flex;
+            position: $ps-relative;
             .left{
                margin-right: 8px;
-               
             }
             .right{
                 img{
@@ -186,6 +186,46 @@
                             }
                         }
                     }
+                }
+            }
+        }
+        .design-adv{
+            display: $ds-flex;
+            margin-top: 60px;
+            .double{
+                background: url(../img/design-e.png);
+                width: 585px;
+                height: 592px;
+                opacity: .8;
+                display: $ds-flex;
+                justify-content: $jc-center;
+                align-items: $ai-center;
+                .title{
+                    color: $danger;
+                    font-size: 72px;
+                    line-height: 108px;
+                }
+                &:hover{
+                    opacity: 1;
+                }
+            }
+            .youth{
+                background: url(../img/design-f.png);
+                width: 585px;
+                height: 592px;
+                opacity: .6;
+                display: $ds-flex;
+                justify-content: $jc-center;
+                align-items: $ai-center;
+                margin-left: 30px;
+                .title{
+                    color: $danger;
+                    font-size: 72px;
+                    line-height: 108px;
+                }
+                &:hover{
+                    opacity: 1;
+                    
                 }
             }
         }
@@ -303,6 +343,18 @@
                         font-size: 40px;
                         line-height: 30px;
                     }
+                } 
+            }
+            .design-adv{
+                margin-top: 40px;
+                .double,.youth{
+                    width: 322px;
+                    height: 280px;
+                    background-size: cover;
+                    .title{
+                        font-size: 32px;
+                        line-height: 25px;
+                    }
                 }
             }
         }
@@ -414,8 +466,14 @@
                     }
                 }
             }
-            .pic{
-                display: $ds-flex;
+            .design-adv{
+                margin-top: 20px;
+                flex-direction: $fxd-column;
+                .youth,.double{
+                    margin-left: 0;
+                    width: 100%;
+                    margin-bottom: 20px;
+                }
             }
         }
     }
