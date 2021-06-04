@@ -426,9 +426,9 @@ img {
 
 .design .container .design-adv .double {
   background: url(../img/design-e.png);
+  position: relative;
   width: 585px;
   height: 592px;
-  opacity: .8;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -441,20 +441,23 @@ img {
 }
 
 .design .container .design-adv .double .title {
+  z-index: 99999;
   color: #AA0601;
   font-size: 72px;
   line-height: 108px;
 }
 
-.design .container .design-adv .double:hover {
-  opacity: 1;
+.design .container .design-adv .double .bg-white {
+  background: rgba(255, 255, 255, 0.5);
+  position: absolute;
+  width: 585px;
+  height: 592px;
 }
 
 .design .container .design-adv .youth {
   background: url(../img/design-f.png);
   width: 585px;
   height: 592px;
-  opacity: .6;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -471,10 +474,14 @@ img {
   color: #AA0601;
   font-size: 72px;
   line-height: 108px;
+  z-index: 999;
 }
 
-.design .container .design-adv .youth:hover {
-  opacity: 1;
+.design .container .design-adv .youth .bg-white {
+  background: rgba(255, 255, 255, 0.5);
+  position: absolute;
+  width: 585px;
+  height: 592px;
 }
 
 @media (max-width: 768px) {
@@ -598,6 +605,10 @@ img {
     font-size: 32px;
     line-height: 25px;
   }
+  .design .container .design-adv .double .bg-white, .design .container .design-adv .youth .bg-white {
+    width: 322px;
+    height: 280px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -715,6 +726,12 @@ img {
     margin-left: 0;
     width: 100%;
     margin-bottom: 20px;
+  }
+  .design .container .design-adv .double .bg-white {
+    width: 100%;
+  }
+  .design .container .design-adv .youth .bg-white {
+    width: 90%;
   }
 }
 /*# sourceMappingURL=all.css.map */

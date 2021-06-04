@@ -194,26 +194,29 @@
             margin-top: 60px;
             .double{
                 background: url(../img/design-e.png);
+                position: relative;
                 width: 585px;
                 height: 592px;
-                opacity: .8;
                 display: $ds-flex;
                 justify-content: $jc-center;
                 align-items: $ai-center;
                 .title{
+                    z-index: 99999;
                     color: $danger;
                     font-size: 72px;
                     line-height: 108px;
                 }
-                &:hover{
-                    opacity: 1;
+                .bg-white{
+                    background: rgba(255, 255, 255, 0.5);
+                    position: absolute;
+                    width: 585px;
+                    height: 592px;
                 }
             }
             .youth{
                 background: url(../img/design-f.png);
                 width: 585px;
                 height: 592px;
-                opacity: .6;
                 display: $ds-flex;
                 justify-content: $jc-center;
                 align-items: $ai-center;
@@ -222,10 +225,13 @@
                     color: $danger;
                     font-size: 72px;
                     line-height: 108px;
+                    z-index: 999;
                 }
-                &:hover{
-                    opacity: 1;
-                    
+                .bg-white{
+                    background: rgba(255, 255, 255, 0.5);
+                    position: absolute;
+                    width: 585px;
+                    height: 592px;
                 }
             }
         }
@@ -355,6 +361,10 @@
                         font-size: 32px;
                         line-height: 25px;
                     }
+                    .bg-white{
+                        width: 322px;
+                        height: 280px;
+                    }
                 }
             }
         }
@@ -473,6 +483,12 @@
                     margin-left: 0;
                     width: 100%;
                     margin-bottom: 20px;
+                }
+                .double .bg-white{
+                    width: 100%;
+                }
+                .youth .bg-white{
+                    width: 90%;
                 }
             }
         }
