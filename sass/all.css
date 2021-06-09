@@ -339,6 +339,7 @@ img {
   padding: 64px 0 0;
   background-size: cover;
   position: relative;
+  z-index: -9999;
 }
 
 .design .container {
@@ -487,6 +488,68 @@ img {
   height: 592px;
 }
 
+.customer {
+  margin-top: -335px;
+  z-index: 99999;
+  margin-bottom: 80px;
+}
+
+.customer .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.customer .container .title {
+  font-size: 48px;
+  line-height: 72px;
+  font-weight: bolder;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 60px;
+}
+
+.customer .container .d-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.customer .container .d-flex li {
+  width: 24%;
+  border: 1px solid #DEE2E6;
+}
+
+.customer .container .d-flex li img {
+  width: 100%;
+}
+
+.customer .container .d-flex li .card-text {
+  padding: 16px;
+}
+
+.customer .container .d-flex li .card-text .card-title {
+  font-size: 16px;
+  line-height: 21px;
+  margin-bottom: 16px;
+}
+
+.customer .container .d-flex li .card-text .text {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 16px;
+}
+
+.customer .container .d-flex li .card-text .time {
+  color: #707070;
+  font-size: 16px;
+  line-height: 21px;
+}
+
 @media (max-width: 768px) {
   .banner .ps-absolute .title-top {
     font-size: 20px;
@@ -603,6 +666,7 @@ img {
     width: 322px;
     height: 280px;
     background-size: cover;
+    margin-bottom: 417px;
   }
   .design .container .design-adv .double .title, .design .container .design-adv .youth .title {
     font-size: 32px;
@@ -611,6 +675,22 @@ img {
   .design .container .design-adv .double .bg-white, .design .container .design-adv .youth .bg-white {
     width: 322px;
     height: 280px;
+  }
+  .customer {
+    margin-top: -377px;
+    margin-bottom: 16px;
+  }
+  .customer .container {
+    max-width: 700px;
+  }
+  .customer .container .title {
+    font-size: 32px;
+    line-height: 48px;
+    margin-bottom: 32px;
+  }
+  .customer .container .d-flex li {
+    width: 49%;
+    margin-bottom: 24px;
   }
 }
 
@@ -738,6 +818,27 @@ img {
   }
   .design .container .design-adv .youth .bg-white {
     width: 90%;
+  }
+  .customer {
+    margin-top: -230px;
+    margin-bottom: 8px;
+  }
+  .customer .container {
+    max-width: 95%;
+  }
+  .customer .container .title {
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 16px;
+  }
+  .customer .container .d-flex {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .customer .container .d-flex li {
+    width: 95%;
+    margin-bottom: 16px;
   }
 }
 /*# sourceMappingURL=all.css.map */

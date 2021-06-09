@@ -134,6 +134,7 @@
     padding: 64px 0 0;
     background-size: cover;
     position: $ps-relative;
+    z-index: -9999;
     .container{
         max-width: 1200px;
         margin: 0 auto;
@@ -240,7 +241,53 @@
         }
     }  
 }
-
+.customer{
+    margin-top: -335px;
+    z-index: 99999;
+    margin-bottom: 80px;
+    .container{
+        max-width: 1200px;
+        margin: 0 auto;
+        .title{
+            font-size: 48px;
+            line-height: 72px;
+            font-weight: bolder;
+            text-align: center;
+            color: $white;
+            margin-bottom: 60px;
+        }
+        .d-flex{
+            display: $ds-flex;
+            justify-content: $jc-between;
+            flex-wrap: $fxd-wrap;
+            li{
+                width: 24%;
+                border:1px solid $light;
+                img{
+                    width: 100%;
+                }
+                .card-text{
+                    padding: 16px;
+                    .card-title{
+                        font-size: 16px;
+                        line-height: 21px;
+                        margin-bottom: 16px;
+                    }
+                    .text{
+                        font-size: 16px;
+                        line-height: 24px;
+                        margin-bottom: 16px;
+                    }
+                    .time{
+                        color: $secondary;
+                        font-size: 16px;
+                        line-height: 21px;
+                    }
+                }
+            }
+        }
+    }
+}
 
 
 @media (max-width:768px){
@@ -361,6 +408,7 @@
                     width: 322px;
                     height: 280px;
                     background-size: cover;
+                    margin-bottom: 417px;
                     .title{
                         font-size: 32px;
                         line-height: 25px;
@@ -373,7 +421,22 @@
             }
         }
     }
-    
+    .customer{
+        margin-top: -377px;
+        margin-bottom: 16px;
+        .container{
+            max-width: 700px;
+            .title{
+                font-size: 32px;
+                line-height: 48px;
+                margin-bottom: 32px;
+            }
+            .d-flex li{
+                width: 49%;
+                margin-bottom: 24px;
+            }
+        }
+    }
 }
 
 @media (max-width:767px){
@@ -501,5 +564,23 @@
             }
         }
     }
-    
+    .customer{
+        margin-top: -230px;
+        margin-bottom: 8px;
+        .container{
+            max-width: 95%;
+            .title{
+                font-size: 24px;
+                line-height: 36px;
+                margin-bottom: 16px;
+            }
+            .d-flex{
+                justify-content: $jc-center;
+                li{
+                    width: 95%;
+                    margin-bottom: 16px;
+                }
+            }
+        }
+    }
 }
