@@ -131,8 +131,9 @@
 }
 .design{
     background: url(../img/design-bg.png) no-repeat;
-    padding: 64px 0 479px;
+    padding: 64px 0 0;
     background-size: cover;
+    position: $ps-relative;
     .container{
         max-width: 1200px;
         margin: 0 auto;
@@ -200,6 +201,7 @@
                 display: $ds-flex;
                 justify-content: $jc-center;
                 align-items: $ai-center;
+                margin-bottom: 479px;
                 .title{
                     z-index: 99999;
                     color: $danger;
@@ -221,6 +223,7 @@
                 justify-content: $jc-center;
                 align-items: $ai-center;
                 margin-left: 30px;
+                margin-bottom: 479px;
                 .title{
                     color: $danger;
                     font-size: 72px;
@@ -236,7 +239,56 @@
             }
         }
     }
+    .customer{
+        position: $ps-absolute;
+        left: 0;
+        right: 0;
+        bottom: -10%;
+        .container{
+            max-width: 1200px;
+            margin: 0 auto;
+            .title{
+                font-size: 48px;
+                line-height: 72px;
+                text-align: center;
+                font-weight: bolder;
+                margin: 60px 0;
+                color: $white;
+            }
+            .d-flex{
+                display: $ds-flex;
+                justify-content: $jc-between;
+                flex-wrap: $fxd-wrap;
+                li{
+                    width: 24%;
+                    border:1px solid $secondary;
+                    .card-img img{
+                        width: 100%;                        
+                    }
+                    .card-body{
+                            padding: 16px;
+                            .card-title{
+                                margin-bottom: 16px;
+                                font-size: 16px;
+                                line-height: 21px;
+                            }
+                            .card-text{
+                                font-size: 16px;
+                                line-height: 24px;
+                                margin-bottom: 16px;
+                            }
+                            .card-footer{
+                                font-size: 16px;
+                                line-height: 21px;
+                                color: $secondary;
+                            }
+                    }
+                }
+            }
+        }
+    }   
 }
+
 
 
 @media (max-width:768px){
@@ -329,7 +381,7 @@
         }
     }
     .design{
-        padding: 40px 0 417px 0;
+        padding: 40px 0 60px 0;
         .container{
             max-width: 700px;
             .title{
@@ -368,7 +420,28 @@
                 }
             }
         }
+        .customer{
+            bottom: -50%;
+            .container{
+                max-width: 700px;
+                .title{
+                    font-size: 48px;
+                    line-height: 72px;
+                    margin: 30px 0;
+                }
+                .d-flex{
+                    li{
+                        width: 49%;
+                        margin-bottom: 20px;
+                        .card-body{
+                            background: #fff;
+                        }
+                    }
+                }
+            }
+        }
     }
+    
 }
 
 @media (max-width:767px){
@@ -452,7 +525,7 @@
         }
     }
     .design{
-        padding: 24px 0 189px 0;
+        padding-top:24px ;
         .container{
             max-width: 90%;
             .title{
@@ -484,6 +557,9 @@
                     width: 100%;
                     margin-bottom: 20px;
                 }
+                .youth{
+                    margin-bottom: 189px;
+                }
                 .double .bg-white{
                     width: 100%;
                 }
@@ -492,5 +568,23 @@
                 }
             }
         }
+        .customer{
+            top:80%;
+            .container{
+                max-width: 90%;
+                .title{
+                    font-size: 24px;
+                    line-height: 36px;
+                    margin: 16px 0;
+                }
+                .d-flex{
+                    flex-direction: $fxd-column;
+                    li{
+                        width: 99%;
+                    }
+                }
+            }
+        }
     }
+    
 }
