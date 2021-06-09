@@ -487,69 +487,6 @@ img {
   height: 592px;
 }
 
-.design .customer {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: -10%;
-}
-
-.design .customer .container {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-.design .customer .container .title {
-  font-size: 48px;
-  line-height: 72px;
-  text-align: center;
-  font-weight: bolder;
-  margin: 60px 0;
-  color: #fff;
-}
-
-.design .customer .container .d-flex {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-
-.design .customer .container .d-flex li {
-  width: 24%;
-  border: 1px solid #707070;
-}
-
-.design .customer .container .d-flex li .card-img img {
-  width: 100%;
-}
-
-.design .customer .container .d-flex li .card-body {
-  padding: 16px;
-}
-
-.design .customer .container .d-flex li .card-body .card-title {
-  margin-bottom: 16px;
-  font-size: 16px;
-  line-height: 21px;
-}
-
-.design .customer .container .d-flex li .card-body .card-text {
-  font-size: 16px;
-  line-height: 24px;
-  margin-bottom: 16px;
-}
-
-.design .customer .container .d-flex li .card-body .card-footer {
-  font-size: 16px;
-  line-height: 21px;
-  color: #707070;
-}
-
 @media (max-width: 768px) {
   .banner .ps-absolute .title-top {
     font-size: 20px;
@@ -674,24 +611,6 @@ img {
   .design .container .design-adv .double .bg-white, .design .container .design-adv .youth .bg-white {
     width: 322px;
     height: 280px;
-  }
-  .design .customer {
-    bottom: -50%;
-  }
-  .design .customer .container {
-    max-width: 700px;
-  }
-  .design .customer .container .title {
-    font-size: 48px;
-    line-height: 72px;
-    margin: 30px 0;
-  }
-  .design .customer .container .d-flex li {
-    width: 49%;
-    margin-bottom: 20px;
-  }
-  .design .customer .container .d-flex li .card-body {
-    background: #fff;
   }
 }
 
@@ -819,26 +738,6 @@ img {
   }
   .design .container .design-adv .youth .bg-white {
     width: 90%;
-  }
-  .design .customer {
-    top: 80%;
-  }
-  .design .customer .container {
-    max-width: 90%;
-  }
-  .design .customer .container .title {
-    font-size: 24px;
-    line-height: 36px;
-    margin: 16px 0;
-  }
-  .design .customer .container .d-flex {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .design .customer .container .d-flex li {
-    width: 99%;
   }
 }
 /*# sourceMappingURL=all.css.map */
