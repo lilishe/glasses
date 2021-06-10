@@ -550,6 +550,83 @@ img {
   line-height: 21px;
 }
 
+.contact {
+  background: rgba(170, 6, 1, 0.051);
+  padding: 64px 0 92px 0;
+}
+
+.contact .container {
+  max-width: 792px;
+  margin: 0 auto;
+}
+
+.contact .container .title {
+  font-size: 48px;
+  line-height: 72px;
+  font-weight: bolder;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.contact .container .text {
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+
+.contact .container .input-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.contact .container .input-form .label-name {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 4px;
+}
+
+.contact .container .input-form .input-name {
+  background: none;
+  border: 1px solid #000;
+  padding: 14px 0 14px 16px;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.541);
+  margin-bottom: 16px;
+}
+
+.contact .container .check {
+  margin-bottom: 42px;
+}
+
+.contact .container .text-align {
+  text-align: center;
+}
+
+.contact .container .text-align .btn {
+  background: #AA0601;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 16px 58px;
+  text-decoration: none;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 @media (max-width: 768px) {
   .banner .ps-absolute .title-top {
     font-size: 20px;
@@ -691,6 +768,22 @@ img {
   .customer .container .d-flex li {
     width: 49%;
     margin-bottom: 24px;
+  }
+  .contact {
+    padding: 40px 0 56px 0;
+  }
+  .contact .container {
+    max-width: 496px;
+  }
+  .contact .container .title {
+    font-size: 32px;
+    line-height: 48px;
+    margin-bottom: 16px;
+  }
+  .contact .container .text {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 16px;
   }
 }
 

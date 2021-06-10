@@ -288,7 +288,63 @@
         }
     }
 }
-
+.contact{
+    background: $pink;
+    padding: 64px 0 92px 0;
+    .container{
+        max-width: 792px;
+        margin: 0 auto;
+        .title{
+            font-size: 48px;
+            line-height: 72px;
+            font-weight: bolder;
+            text-align: center;
+            margin-bottom: 24px;
+        }
+        .text{
+            font-size: 20px;
+            line-height: 30px;
+            margin-bottom: 20px;
+        }
+        .input-form{
+            display: $ds-flex;
+            flex-direction: $fxd-column;
+            .label-name{
+                font-size: 16px;
+                line-height: 24px;
+                margin-bottom: 4px;
+            }
+            .input-name{
+                background:none;
+                border:1px solid $dark;
+                padding: 14px 0 14px 16px;
+                font-size: 16px;
+                line-height: 24px;
+                color: rgba(0, 0, 0, 0.541);
+                margin-bottom: 16px;
+            }
+            
+        }
+        .check{
+            margin-bottom: 42px;
+        }
+        .text-align{
+            text-align: center;
+            .btn{
+                background:$danger;
+                color: $white;
+                border:none;
+                font-size: 16px;
+                line-height: 24px;
+                padding: 16px 58px;
+                text-decoration: none;
+                display:inline-flex;
+                justify-content: $jc-center;
+                align-items: $ai-center;
+            }
+        }
+    }
+}
 
 @media (max-width:768px){
     .banner .ps-absolute{
@@ -434,6 +490,22 @@
             .d-flex li{
                 width: 49%;
                 margin-bottom: 24px;
+            }
+        }
+    }
+    .contact{
+        padding: 40px 0 56px 0;
+        .container{
+            max-width: 496px;
+            .title{
+                font-size: 32px;
+                line-height: 48px;
+                margin-bottom: 16px;
+            }
+            .text{
+                font-size: 16px;
+                line-height: 24px;
+                margin-bottom: 16px;
             }
         }
     }
