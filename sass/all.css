@@ -602,6 +602,17 @@ img {
 
 .contact .container .check {
   margin-bottom: 42px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.contact .container .check .check-text {
+  font-size: 16px;
+  line-height: 24px;
 }
 
 .contact .container .text-align {
@@ -785,6 +796,9 @@ img {
     line-height: 24px;
     margin-bottom: 16px;
   }
+  .contact .container .text-align .btn {
+    padding: 7px 36px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -932,6 +946,33 @@ img {
   .customer .container .d-flex li {
     width: 95%;
     margin-bottom: 16px;
+  }
+  .contact {
+    padding: 24px 0 48px 0;
+  }
+  .contact .container {
+    max-width: 90%;
+  }
+  .contact .container .title {
+    font-size: 20px;
+    line-height: 48px;
+    margin-bottom: 8px;
+  }
+  .contact .container .text {
+    margin-bottom: 8px;
+  }
+  .contact .container .input-form .input-name {
+    padding: 7px 0 7px 12px;
+    font-size: 16px;
+    line-height: 21px;
+    margin-bottom: 12px;
+  }
+  .contact .container .check {
+    margin-bottom: 20px;
+  }
+  .contact .container .check .check-text {
+    font-size: 14px;
+    line-height: 21px;
   }
 }
 /*# sourceMappingURL=all.css.map */

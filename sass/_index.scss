@@ -327,6 +327,12 @@
         }
         .check{
             margin-bottom: 42px;
+            display: $ds-flex;
+            align-items:$ai-start;
+            .check-text{
+                font-size: 16px;
+                line-height: 24px;
+            }
         }
         .text-align{
             text-align: center;
@@ -507,6 +513,9 @@
                 line-height: 24px;
                 margin-bottom: 16px;
             }
+            .text-align .btn{
+                padding: 7px 36px;                
+            }
         }
     }
 }
@@ -652,6 +661,33 @@
                     width: 95%;
                     margin-bottom: 16px;
                 }
+            }
+        }
+    }
+    .contact{
+        padding: 24px 0 48px 0;
+        .container{
+            max-width: 90%;
+            .title{
+                font-size: 20px;
+                line-height: 48px;
+                margin-bottom: 8px;
+            }
+            .text{
+                margin-bottom: 8px;
+            }
+            .input-form .input-name{
+                padding: 7px 0 7px 12px;
+                font-size: 16px;
+                line-height: 21px;
+                margin-bottom: 12px;
+            }
+            .check{
+                margin-bottom: 20px;
+                .check-text{
+                   font-size: 14px;
+                   line-height: 21px;
+               }
             }
         }
     }
