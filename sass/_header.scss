@@ -50,6 +50,10 @@
         justify-content: $jc-center;
         align-items: $ai-center;
         position: $ps-relative;
+        position:sticky;
+        top: 0;
+        left: 0;
+        z-index: 9999;
         .bar{
             display: block;
             position: $ps-absolute;
