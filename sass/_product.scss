@@ -1,0 +1,21 @@
+.navbar{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: $ds-flex;
+    .d-flex{
+        display: $ds-flex;
+        width: 33%;
+        align-items: $ai-center;
+        justify-content: $jc-center;
+        padding: 24px 0;
+        border:1px solid $secondary;
+        .text{
+            font-size: 42px;
+            line-height: 63px;
+            color: $dark;
+        }
+    }
+    .d-flex.hover{
+        border-bottom:10px solid $danger;
+    }
+}
