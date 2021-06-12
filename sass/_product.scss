@@ -13,9 +13,149 @@
             font-size: 42px;
             line-height: 63px;
             color: $dark;
+            margin-left: 8px;
         }
     }
     .d-flex.hover{
         border-bottom:10px solid $danger;
+    }
+}
+.pro-banner{
+    display: $ds-flex;
+    margin-bottom: 88px;
+    .banner-a{
+        background: url(../img/banner-a.png);
+        background-size: cover;
+        background-position: center;
+        width: 948px;
+        height: 309px;
+        margin-right: 24px;
+    }
+    .banner-b{
+        background: url(../img/banner-b.png);
+        background-size: cover;
+        background-position: center;
+        width: 948px;
+        height: 309px;
+    }
+}
+.content{
+    .container{
+        max-width: 1200px;
+        margin: 0 auto;
+        .title{
+            font-size: 42px;
+            line-height: 63px;
+            text-align: center;
+        }
+        .title-sm{
+            font-size: 32px;
+            line-height: 48px;
+            margin-bottom: 48px;
+            text-align: center;
+        }
+    }
+}
+@media(max-width:768px){
+    .navbar{
+        max-width: 100%;
+        .d-flex{
+            width: 35%;
+            padding: 18px 0;
+            .optical{
+                width: 32px;
+                height: 25px;
+            }
+            .sunglasses{
+                width: 32px;
+                height: 32px;
+            }
+            .functional{
+                width: 23px;
+                height: 32px;
+            }
+            .text{
+                font-size: 28px;
+                line-height: 42px;
+            }
+        }
+        .d-flex.hover{
+            border-bottom:5px solid $danger;
+        }
+    }
+    .pro-banner{
+        margin-bottom: 40px;
+        .banner-a{
+            width: 50%;
+            margin: 0;
+        }
+        .banner-b{
+            width: 50%;
+        }
+    }
+    .content{
+        .container{
+            max-width: 700px;
+            .title{
+                font-size: 32px;
+                line-height: 48px;
+            }
+            .title-sm{
+                font-size: 24px;
+                line-height: 36px;
+                margin-bottom: 32px;
+            }
+        }
+    }
+}
+
+@media(max-width:767px){
+    .navbar{
+        .d-flex{
+            padding: 12px 0;
+            .optical{
+                width: 15px;
+                height: 12px;
+            }
+            .sunglasses{
+                width: 14px;
+                height: 15px;
+            }
+            .functional{
+                width: 11px;
+                height: 14px;
+            }
+            .text{
+                font-size: 14px;
+                line-height: 19px;
+                margin-left: 4px;
+            }
+        }
+    }
+    .pro-banner{
+        max-width: 100%;
+        margin-bottom: 24px;
+        .banner-a{
+            width: 50%;
+            height: 144px;
+        }
+        .banner-b{
+            width: 50%;
+            height: 144px;
+        }
+    }
+    .content{
+        .container{
+            max-width: 90%;
+            .title{
+                font-size: 20px;
+                line-height: 30px;
+            }
+            .title-sm{
+                font-size: 16px;
+                line-height: 20px;
+                margin-bottom: 20px;
+            }
+        }
     }
 }

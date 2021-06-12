@@ -1217,9 +1217,150 @@ a {
   font-size: 42px;
   line-height: 63px;
   color: #000;
+  margin-left: 8px;
 }
 
 .navbar .d-flex.hover {
   border-bottom: 10px solid #AA0601;
+}
+
+.pro-banner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 88px;
+}
+
+.pro-banner .banner-a {
+  background: url(../img/banner-a.png);
+  background-size: cover;
+  background-position: center;
+  width: 948px;
+  height: 309px;
+  margin-right: 24px;
+}
+
+.pro-banner .banner-b {
+  background: url(../img/banner-b.png);
+  background-size: cover;
+  background-position: center;
+  width: 948px;
+  height: 309px;
+}
+
+.content .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.content .container .title {
+  font-size: 42px;
+  line-height: 63px;
+  text-align: center;
+}
+
+.content .container .title-sm {
+  font-size: 32px;
+  line-height: 48px;
+  margin-bottom: 48px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    max-width: 100%;
+  }
+  .navbar .d-flex {
+    width: 35%;
+    padding: 18px 0;
+  }
+  .navbar .d-flex .optical {
+    width: 32px;
+    height: 25px;
+  }
+  .navbar .d-flex .sunglasses {
+    width: 32px;
+    height: 32px;
+  }
+  .navbar .d-flex .functional {
+    width: 23px;
+    height: 32px;
+  }
+  .navbar .d-flex .text {
+    font-size: 28px;
+    line-height: 42px;
+  }
+  .navbar .d-flex.hover {
+    border-bottom: 5px solid #AA0601;
+  }
+  .pro-banner {
+    margin-bottom: 40px;
+  }
+  .pro-banner .banner-a {
+    width: 50%;
+    margin: 0;
+  }
+  .pro-banner .banner-b {
+    width: 50%;
+  }
+  .content .container {
+    max-width: 700px;
+  }
+  .content .container .title {
+    font-size: 32px;
+    line-height: 48px;
+  }
+  .content .container .title-sm {
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 32px;
+  }
+}
+
+@media (max-width: 767px) {
+  .navbar .d-flex {
+    padding: 12px 0;
+  }
+  .navbar .d-flex .optical {
+    width: 15px;
+    height: 12px;
+  }
+  .navbar .d-flex .sunglasses {
+    width: 14px;
+    height: 15px;
+  }
+  .navbar .d-flex .functional {
+    width: 11px;
+    height: 14px;
+  }
+  .navbar .d-flex .text {
+    font-size: 14px;
+    line-height: 19px;
+    margin-left: 4px;
+  }
+  .pro-banner {
+    max-width: 100%;
+    margin-bottom: 24px;
+  }
+  .pro-banner .banner-a {
+    width: 50%;
+    height: 144px;
+  }
+  .pro-banner .banner-b {
+    width: 50%;
+    height: 144px;
+  }
+  .content .container {
+    max-width: 90%;
+  }
+  .content .container .title {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .content .container .title-sm {
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 20px;
+  }
 }
 /*# sourceMappingURL=all.css.map */
