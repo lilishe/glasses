@@ -1266,6 +1266,51 @@ a {
   text-align: center;
 }
 
+.content .container .d-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.content .container .d-flex li {
+  max-width: 25%;
+  margin-bottom: 104px;
+}
+
+.content .container .d-flex li .box {
+  width: 24px;
+  height: 24px;
+}
+
+.content .container .d-flex li .color {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.content .container .d-flex li .color .brown {
+  background: #5F3E2D;
+  margin-right: 8px;
+}
+
+.content .container .d-flex li .color .danger {
+  background: #B75929;
+}
+
+.content .container .d-flex .text {
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.content .container .d-flex .text-danger {
+  color: #AA0601;
+}
+
 @media (max-width: 768px) {
   .navbar {
     max-width: 100%;

@@ -54,6 +54,36 @@
             margin-bottom: 48px;
             text-align: center;
         }
+        .d-flex{
+            display: $ds-flex;
+            flex-wrap: $fxd-wrap;
+            justify-content: $jc-between;
+            li{
+                max-width: 25%;
+                margin-bottom: 104px;
+                .box{
+                    width: 24px;
+                    height: 24px;
+                }
+                .color{
+                    display: $ds-flex;
+                    .brown{
+                        background: $primary;
+                        margin-right: 8px;
+                    }
+                    .danger{
+                        background: $success;
+                    }
+                }
+            }
+            .text{
+                font-size: 24px;
+                line-height: 36px;
+            }
+            .text-danger{
+                color: $danger;
+            }
+        }
     }
 }
 @media(max-width:768px){
