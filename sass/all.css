@@ -1465,5 +1465,10 @@ a {
     width: 15px;
     height: 16px;
   }
+  .content .container .group .btn {
+    padding: 8px;
+    font-size: 12px;
+    line-height: 18px;
+  }
 }
 /*# sourceMappingURL=all.css.map */
