@@ -1,0 +1,106 @@
+.pro-banner{
+    display: $ds-flex;
+    margin-bottom: 88px;
+    .banner-c{
+        background: url(../img/sunglasses-banner.png);
+        background-size: cover;
+        background-position: center;
+        width: 948px;
+        height: 309px;
+        margin-right: 24px;
+    }
+    .banner-d{
+        background: url(../img/sunglasses-hover.png);
+        background-size: cover;
+        background-position: center;
+        width: 948px;
+        height: 309px;
+    }
+}
+
+.content .container .sun{
+    display: $ds-flex;
+    flex-wrap: $fxd-wrap;
+    justify-content: $jc-between;
+    li{
+        width: 30%;
+        margin-bottom: 104px;
+        img{
+            width: 100%;
+        }
+        .d-flex{
+            flex-direction: $fxd-column;
+        }
+        .box{
+            width: 24px;
+            height: 24px;
+        }
+        .color{
+            display: $ds-flex;
+            .brown{
+                background: $primary;
+                margin-right: 8px;
+            }
+            .danger{
+                background: $success;
+            }
+        }
+    }
+}
+
+@media (max-width:768px){
+    .pro-banner{
+        margin-bottom: 40px;
+        .banner-c{
+            width: 50%;
+            margin: 0;
+        }
+        .banner-d{
+            width: 50%;
+        }
+    }
+    .content .container .sun li{
+        width: 49%;
+        margin-bottom: 72px;
+        .d-flex{
+            flex-direction: $fxd-row;
+            .text{
+                line-height: 30px;
+            }
+        }
+    }
+}
+
+@media (max-width:767px){
+    .pro-banner{
+        max-width: 100%;
+        margin-bottom: 24px;
+        .banner-c{
+            width: 50%;
+            height: 144px;
+        }
+        .banner-d{
+            width: 50%;
+            height: 144px;
+        }
+    }
+    .content .container .sun {
+        justify-content: $jc-center;
+        li{
+            width: 99%;
+            margin-bottom: 32px;
+            .d-flex{
+                flex-direction: $fxd-row;
+                .text{
+                    line-height: 30px;
+                    font-size: 16px;
+                }
+            }
+            .color .box{
+                width: 15px;
+                height: 16px;
+            }
+        }
+    }
+
+}
