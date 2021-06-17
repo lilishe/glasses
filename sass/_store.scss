@@ -1,0 +1,57 @@
+.store-banner{
+    background: url(../img/store-banner.png);
+    height: 304px;
+    background-position: center;
+    background-size: cover;
+    position: $ps-relative;
+    .container{
+        max-width: 1200px;
+        margin: 0 auto;
+        .d-flex{
+            display: $ds-flex;
+            align-items: $ai-center;
+            position: $ps-absolute;
+            bottom: 0;
+            .title{
+                font-size: 64px;
+                line-height: 80px;
+                margin-right: 24px;
+            }
+        }
+    }
+}
+
+@media (max-width:768px){
+    .store-banner .container{
+        max-width: 700px;
+        .d-flex .title{
+            font-size: 48px;
+            line-height: 60px;
+            margin-right: 16px;
+        }
+        .d-flex img{
+            width: 30px;
+            height: 43px;
+        }
+    }
+}
+
+@media (max-width:767px){
+    .store-banner{
+        height: 143px;
+        .container{
+            max-width: 90%;
+            .d-flex{
+                .title{
+                    font-size: 28px;
+                    line-height: 40px;
+                    margin-right: 8px;
+                }
+                img{
+                    width: 16px;
+                    height: 24px;
+                }
+            }
+        }
+    }
+}
