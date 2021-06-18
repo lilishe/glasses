@@ -1613,6 +1613,7 @@ a {
   background-position: center;
   background-size: cover;
   position: relative;
+  margin-bottom: 16px;
 }
 
 .store-banner .container {
@@ -1637,7 +1638,84 @@ a {
   margin-right: 24px;
 }
 
+.content .container .choose {
+  font-size: 24px;
+  line-height: 30px;
+  margin-right: 22px;
+}
+
+.content .container .address {
+  width: 266px;
+  background: #fff;
+  border: 1px solid #DEE2E6;
+  padding: 10px 19px;
+  font-size: 18px;
+  line-height: 22px;
+  margin-bottom: 32px;
+}
+
+.content .container .d-flex .list {
+  width: 32%;
+  margin-bottom: 28px;
+}
+
+.content .container .d-flex .list .title {
+  font-size: 24px;
+  line-height: 33px;
+  text-align-last: left;
+  border: 1px solid #DEE2E6;
+  padding: 16px 24px;
+}
+
+.content .container .d-flex .list .card-content {
+  border: 1px solid #DEE2E6;
+  padding: 16px 40px;
+}
+
+.content .container .d-flex .list .card-content .list-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 8px;
+}
+
+.content .container .d-flex .list .card-content .list-group .phone {
+  width: 26px;
+  height: 19px;
+  margin-right: 8px;
+}
+
+.content .container .d-flex .list .card-content .list-group .time {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+
+.content .container .d-flex .list .card-content .list-group .map {
+  width: 18px;
+  height: 24px;
+  margin-right: 8px;
+}
+
+.content .container .d-flex .list .card-content .list-group .tel, .content .container .d-flex .list .card-content .list-group .clock, .content .container .d-flex .list .card-content .list-group .adr {
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.content .container .d-flex .list .btn {
+  background: #000;
+  display: block;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 20px;
+  line-height: 30px;
+}
+
 @media (max-width: 768px) {
+  .store-banner {
+    margin-bottom: 8px;
+  }
   .store-banner .container {
     max-width: 700px;
   }
@@ -1649,6 +1727,53 @@ a {
   .store-banner .container .d-flex img {
     width: 30px;
     height: 43px;
+  }
+  .content .container .choose {
+    font-size: 16px;
+    margin-right: 23px;
+  }
+  .content .container .address {
+    width: 237px;
+    padding: 12px 16px;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 24px;
+  }
+  .content .container .d-flex .list {
+    width: 48%;
+    margin-bottom: 24px;
+  }
+  .content .container .d-flex .list .title {
+    font-size: 16px;
+    line-height: 24px;
+    padding: 8px 16px;
+  }
+  .content .container .d-flex .list .card-content {
+    padding: 16px 21px;
+  }
+  .content .container .d-flex .list .card-content .list-group .phone {
+    width: 22px;
+    height: 16px;
+    margin-right: 13px;
+  }
+  .content .container .d-flex .list .card-content .list-group .time {
+    width: 16px;
+    height: 16px;
+    margin-right: 13px;
+  }
+  .content .container .d-flex .list .card-content .list-group .map {
+    width: 12px;
+    height: 16px;
+    margin-right: 13px;
+  }
+  .content .container .d-flex .list .card-content .list-group .tel, .content .container .d-flex .list .card-content .list-group .clock, .content .container .d-flex .list .card-content .list-group .adr {
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .content .container .d-flex .list .btn {
+    padding: 16px 0;
+    font-size: 14px;
+    line-height: 21px;
   }
 }
 
@@ -1667,6 +1792,20 @@ a {
   .store-banner .container .d-flex img {
     width: 16px;
     height: 24px;
+  }
+  .content .container .choose {
+    font-size: 14px;
+    margin-right: 16px;
+  }
+  .content .container .address {
+    width: 78%;
+    font-size: 14px;
+    padding: 8px 16px;
+    margin-bottom: 20px;
+  }
+  .content .container .d-flex .list {
+    width: 98%;
+    margin-bottom: 20px;
   }
 }
 /*# sourceMappingURL=all.css.map */
