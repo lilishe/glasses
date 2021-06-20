@@ -3,4 +3,7 @@ $(document).ready(function () {
         e.preventDefault();
         $('.nav').toggleClass('active');
     });
+    $('.navbar .e').click(function(e){
+        e.preventDefault();
+    });
 });
