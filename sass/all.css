@@ -1638,6 +1638,10 @@ a {
   margin-right: 24px;
 }
 
+.mb-156 {
+  margin-bottom: 156px;
+}
+
 .content .container .choose {
   font-size: 24px;
   line-height: 30px;
@@ -1669,7 +1673,7 @@ a {
 
 .content .container .d-flex .list .card-content {
   border: 1px solid #DEE2E6;
-  padding: 16px 40px;
+  padding: 16px 0;
 }
 
 .content .container .d-flex .list .card-content .list-group {
@@ -1683,18 +1687,21 @@ a {
   width: 26px;
   height: 19px;
   margin-right: 8px;
+  margin-left: 36px;
 }
 
 .content .container .d-flex .list .card-content .list-group .time {
   width: 24px;
   height: 24px;
   margin-right: 8px;
+  margin-left: 37px;
 }
 
 .content .container .d-flex .list .card-content .list-group .map {
   width: 18px;
   height: 24px;
   margin-right: 8px;
+  margin-left: 40px;
 }
 
 .content .container .d-flex .list .card-content .list-group .tel, .content .container .d-flex .list .card-content .list-group .clock, .content .container .d-flex .list .card-content .list-group .adr {
@@ -1712,6 +1719,14 @@ a {
   line-height: 30px;
 }
 
+.content .container .d-flex .map {
+  height: 521px;
+}
+
+.content .container .d-flex .list-md {
+  display: none;
+}
+
 @media (max-width: 768px) {
   .store-banner {
     margin-bottom: 8px;
@@ -1727,6 +1742,9 @@ a {
   .store-banner .container .d-flex img {
     width: 30px;
     height: 43px;
+  }
+  .mb-156 {
+    margin-bottom: 104px;
   }
   .content .container .choose {
     font-size: 16px;
@@ -1749,22 +1767,25 @@ a {
     padding: 8px 16px;
   }
   .content .container .d-flex .list .card-content {
-    padding: 16px 21px;
+    padding: 16px 0;
   }
   .content .container .d-flex .list .card-content .list-group .phone {
     width: 22px;
     height: 16px;
-    margin-right: 13px;
+    margin-right: 13.11px;
+    margin-left: 16px;
   }
   .content .container .d-flex .list .card-content .list-group .time {
     width: 16px;
     height: 16px;
-    margin-right: 13px;
+    margin-right: 16px;
+    margin-left: 19px;
   }
   .content .container .d-flex .list .card-content .list-group .map {
     width: 12px;
     height: 16px;
-    margin-right: 13px;
+    margin-right: 18px;
+    margin-left: 21px;
   }
   .content .container .d-flex .list .card-content .list-group .tel, .content .container .d-flex .list .card-content .list-group .clock, .content .container .d-flex .list .card-content .list-group .adr {
     font-size: 14px;
@@ -1774,6 +1795,64 @@ a {
     padding: 16px 0;
     font-size: 14px;
     line-height: 21px;
+  }
+  .content .container .d-flex .d-md-none {
+    display: none;
+  }
+  .content .container .d-flex {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .content .container .d-flex .list-md {
+    display: block;
+  }
+  .content .container .d-flex .list-md .title {
+    font-size: 16px;
+    line-height: 24px;
+    padding: 8px 16px;
+    border: 1px solid #DEE2E6;
+    text-align: left;
+  }
+  .content .container .d-flex .list-md .card-content {
+    padding: 16px 0;
+    border: 1px solid #DEE2E6;
+  }
+  .content .container .d-flex .list-md .card-content .list-group {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .content .container .d-flex .list-md .card-content .list-group .phone {
+    width: 22px;
+    height: 16px;
+    margin-right: 13.11px;
+    margin-left: 16px;
+  }
+  .content .container .d-flex .list-md .card-content .list-group .time {
+    width: 16px;
+    height: 16px;
+    margin-right: 16px;
+    margin-left: 19px;
+  }
+  .content .container .d-flex .list-md .card-content .list-group .map {
+    width: 12px;
+    height: 16px;
+    margin-right: 18px;
+    margin-left: 21px;
+  }
+  .content .container .d-flex .list-md .card-content .list-group .tel, .content .container .d-flex .list-md .card-content .list-group .clock, .content .container .d-flex .list-md .card-content .list-group .adr {
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .content .container .d-flex .mb-32 {
+    margin-bottom: 32px;
+  }
+  .content .container .d-flex .mb-41 {
+    margin-bottom: 41px;
+  }
+  .content .container .d-flex .map {
+    height: 465px;
   }
 }
 
@@ -1793,6 +1872,9 @@ a {
     width: 16px;
     height: 24px;
   }
+  .mb-156 {
+    margin-bottom: 56px;
+  }
   .content .container .choose {
     font-size: 14px;
     margin-right: 16px;
@@ -1806,6 +1888,16 @@ a {
   .content .container .d-flex .list {
     width: 98%;
     margin-bottom: 20px;
+  }
+  .content .container .d-flex .d-md-none {
+    display: block;
+  }
+  .content .container .d-flex .list-md {
+    display: none;
+  }
+  .content .container .d-flex .map {
+    height: 227px;
+    margin: 0 auto;
   }
 }
 /*# sourceMappingURL=all.css.map */
