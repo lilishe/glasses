@@ -1,0 +1,93 @@
+.navbar-bg{
+    background: $brown;
+    padding: 13px 0;
+    .container{
+        max-width: 1200px;
+        margin: 0 auto;
+        .list{
+            display: $ds-flex;
+            width: 30%;
+            justify-content: $jc-between;
+            .e{
+               text-decoration: none;
+               color: $white; 
+            }
+        }
+    }
+    .d-flex{
+        display: $ds-flex;
+        justify-content: $jc-between;
+        .drop-down{
+            display: none;
+        }
+    }
+}
+
+.content{
+    padding: 88px 0 156px 0;
+    .d-flex{
+        margin-bottom: 60px;
+        img{
+            margin-right: 24px;
+        }
+    }
+}
+
+@media (max-width:768px){
+    .navbar-bg{
+        padding: 16px 0;
+        .container{
+            max-width: 700px;
+            .list{
+                width: 60%;
+            }
+        }
+    }
+}
+
+@media (max-width:767px){
+    .navbar-bg{
+        background: $white;
+        padding: 0;
+        .d-flex{
+            width: 100%;
+            flex-direction: $fxd-column;
+            position: $ps-absolute;
+            top: -22.2%;
+            &.active{
+                top:6%;
+                transition: all .5s;
+            }
+        }
+        .container{
+            max-width: 100%;
+            .list{
+                width: 100%;
+                flex-direction: $fxd-column;
+                background: #fff;
+                .e{
+                    display: block;
+                    color: #000;
+                    border:1px solid $light;
+                    text-align: center;
+                    font-size: 16px;
+                    line-height: 24px;
+                    padding: 14px 0;
+                }
+            }
+            .drop-down{
+                background: $white;
+                border:1px solid $dark;
+                display: $ds-flex;
+                justify-content: $jc-center;
+                align-items: $ai-center;
+                padding: 2px 0;
+                color: $dark;
+            }
+            img{
+                display: none;
+            }
+        }
+        
+    }
+}

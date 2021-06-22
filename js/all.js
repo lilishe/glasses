@@ -6,4 +6,8 @@ $(document).ready(function () {
     $('.navbar .e').click(function(e){
         e.preventDefault();
     });
+    $('.drop-down').click(function(e){
+        e.preventDefault();
+        $('.d-flex').toggleClass('active');
+    });
 });

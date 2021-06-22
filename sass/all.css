@@ -1900,4 +1900,125 @@ a {
     margin: 0 auto;
   }
 }
+
+.navbar-bg {
+  background: #650300;
+  padding: 13px 0;
+}
+
+.navbar-bg .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.navbar-bg .container .list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 30%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.navbar-bg .container .list .e {
+  text-decoration: none;
+  color: #fff;
+}
+
+.navbar-bg .d-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.navbar-bg .d-flex .drop-down {
+  display: none;
+}
+
+.content {
+  padding: 88px 0 156px 0;
+}
+
+.content .d-flex {
+  margin-bottom: 60px;
+}
+
+.content .d-flex img {
+  margin-right: 24px;
+}
+
+@media (max-width: 768px) {
+  .navbar-bg {
+    padding: 16px 0;
+  }
+  .navbar-bg .container {
+    max-width: 700px;
+  }
+  .navbar-bg .container .list {
+    width: 60%;
+  }
+}
+
+@media (max-width: 767px) {
+  .navbar-bg {
+    background: #fff;
+    padding: 0;
+  }
+  .navbar-bg .d-flex {
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: absolute;
+    top: -22.2%;
+  }
+  .navbar-bg .d-flex.active {
+    top: 6%;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+  }
+  .navbar-bg .container {
+    max-width: 100%;
+  }
+  .navbar-bg .container .list {
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background: #fff;
+  }
+  .navbar-bg .container .list .e {
+    display: block;
+    color: #000;
+    border: 1px solid #DEE2E6;
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 14px 0;
+  }
+  .navbar-bg .container .drop-down {
+    background: #fff;
+    border: 1px solid #000;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 2px 0;
+    color: #000;
+  }
+  .navbar-bg .container img {
+    display: none;
+  }
+}
 /*# sourceMappingURL=all.css.map */
