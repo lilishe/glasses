@@ -10,4 +10,7 @@ $(document).ready(function () {
         e.preventDefault();
         $('.close').toggleClass('active');
     });
+    $('.group a').click(function(e){
+        e.preventDefault();
+    });
 });

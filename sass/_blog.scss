@@ -25,10 +25,54 @@
 
 .content{
     padding: 88px 0 156px 0;
-    .d-flex{
-        margin-bottom: 60px;
-        img{
-            margin-right: 24px;
+    .container{
+        .card{
+            display: $ds-flex;
+            justify-content: $jc-start;
+            margin-bottom: 60px;
+            a{
+                margin-right: 24px;
+            }
+            .text{
+                width: 50%;
+                .t-title{
+                    color: $brown;
+                    font-size: 32px;
+                    line-height: 63px;
+                }
+                .d-flex{
+                    justify-content: $jc-between;
+                    align-items: $ai-center;
+                    margin-bottom: 40px;
+                    .title-small{
+                        font-size: 20px;
+                        line-height: 30px;
+                    }
+                    .time{
+                        font-size: 16px;
+                        line-height: 24px;
+                    }
+                }
+                .text-content{
+                    font-size: 20px;
+                    line-height: 30px;
+                    text-align: justify;
+                    color: $btn-color;
+                    margin-bottom: 32px;
+                }
+                .more{
+                    font-size: 36px;
+                    line-height: 54px;
+                    font-weight: bolder;
+                    text-align: right;
+                }
+            }
+        }
+        .card:last-child{
+            margin-bottom: 88px;
+        }
+        .mb-0{
+            margin-bottom: 0;
         }
     }
 }
@@ -40,6 +84,47 @@
             max-width: 700px;
             .list{
                 width: 60%;
+            }
+        }
+    }
+    .content{
+        padding: 40px 0 104px 0;
+        .container{
+            .card{
+                margin-bottom: 32px;
+                a{
+                    img{
+                        width: 100%;
+                    }
+                }
+                .text {
+                    .t-title{
+                        font-size: 20px;
+                        line-height: 30px;
+                    }
+                    .d-flex{
+                        margin-bottom: 16px;
+                        .title-small{
+                            font-size: 16px;
+                            line-height: 20px;
+                        }
+                        .time{
+                            font-size: 14px;
+                            line-height: 20px;
+                        }
+                    }
+                    .text-content{
+                        font-size: 14px;
+                        line-height: 20px;
+                        margin: 0;
+                    }
+                    .more{
+                        display: none;
+                    }
+                }
+            }
+            .card:last-child{
+                margin-bottom: 52px;
             }
         }
     }
@@ -60,6 +145,7 @@
                 background: #fff;
                 flex-direction: $fxd-column;
                 transition: all .5s;
+                position: fixed;
                 .e{
                     display: block;
                     color: #000;
@@ -92,5 +178,37 @@
             }
         }
         
+    }
+    .content{
+        padding: 50px 0 56px 0;
+        .container{
+            .card{
+                margin-bottom: 24px;
+                flex-direction: $fxd-column;
+                a{
+                    margin-right: 0;
+                    margin-bottom: 8px;
+                }
+                .text{
+                    width: 100%;
+                    .t-title{
+                        font-size: 16px;
+                        line-height: 20px;
+                    }
+                    .d-flex{
+                        margin-bottom: 0;
+                        .title-small{
+                            font-size: 14px;
+                        }
+                    }
+                    .text-content{
+                        display: none;
+                    }
+                }
+            }
+            .card:last-child{
+                margin-bottom: 40px;
+            }
+        }
     }
 }

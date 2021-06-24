@@ -1943,12 +1943,71 @@ a {
   padding: 88px 0 156px 0;
 }
 
-.content .d-flex {
+.content .container .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   margin-bottom: 60px;
 }
 
-.content .d-flex img {
+.content .container .card a {
   margin-right: 24px;
+}
+
+.content .container .card .text {
+  width: 50%;
+}
+
+.content .container .card .text .t-title {
+  color: #650300;
+  font-size: 32px;
+  line-height: 63px;
+}
+
+.content .container .card .text .d-flex {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 40px;
+}
+
+.content .container .card .text .d-flex .title-small {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.content .container .card .text .d-flex .time {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.content .container .card .text .text-content {
+  font-size: 20px;
+  line-height: 30px;
+  text-align: justify;
+  color: #555555;
+  margin-bottom: 32px;
+}
+
+.content .container .card .text .more {
+  font-size: 36px;
+  line-height: 54px;
+  font-weight: bolder;
+  text-align: right;
+}
+
+.content .container .card:last-child {
+  margin-bottom: 88px;
+}
+
+.content .container .mb-0 {
+  margin-bottom: 0;
 }
 
 @media (max-width: 768px) {
@@ -1960,6 +2019,41 @@ a {
   }
   .navbar-bg .container .list {
     width: 60%;
+  }
+  .content {
+    padding: 40px 0 104px 0;
+  }
+  .content .container .card {
+    margin-bottom: 32px;
+  }
+  .content .container .card a img {
+    width: 100%;
+  }
+  .content .container .card .text .t-title {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .content .container .card .text .d-flex {
+    margin-bottom: 16px;
+  }
+  .content .container .card .text .d-flex .title-small {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .content .container .card .text .d-flex .time {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .content .container .card .text .text-content {
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0;
+  }
+  .content .container .card .text .more {
+    display: none;
+  }
+  .content .container .card:last-child {
+    margin-bottom: 52px;
   }
 }
 
@@ -1987,6 +2081,7 @@ a {
             flex-direction: column;
     -webkit-transition: all .5s;
     transition: all .5s;
+    position: fixed;
   }
   .navbar-bg .container .list .e {
     display: block;
@@ -2020,6 +2115,39 @@ a {
   }
   .navbar-bg .container img {
     display: none;
+  }
+  .content {
+    padding: 50px 0 56px 0;
+  }
+  .content .container .card {
+    margin-bottom: 24px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .content .container .card a {
+    margin-right: 0;
+    margin-bottom: 8px;
+  }
+  .content .container .card .text {
+    width: 100%;
+  }
+  .content .container .card .text .t-title {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .content .container .card .text .d-flex {
+    margin-bottom: 0;
+  }
+  .content .container .card .text .d-flex .title-small {
+    font-size: 14px;
+  }
+  .content .container .card .text .text-content {
+    display: none;
+  }
+  .content .container .card:last-child {
+    margin-bottom: 40px;
   }
 }
 /*# sourceMappingURL=all.css.map */
