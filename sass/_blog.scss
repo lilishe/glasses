@@ -52,19 +52,14 @@
         .d-flex{
             width: 100%;
             flex-direction: $fxd-column;
-            position: $ps-absolute;
-            top: -22.2%;
-            &.active{
-                top:6%;
-                transition: all .5s;
-            }
         }
         .container{
             max-width: 100%;
             .list{
                 width: 100%;
-                flex-direction: $fxd-column;
                 background: #fff;
+                flex-direction: $fxd-column;
+                transition: all .5s;
                 .e{
                     display: block;
                     color: #000;
@@ -74,16 +69,24 @@
                     line-height: 24px;
                     padding: 14px 0;
                 }
+                .drop-down{
+                    background: $white;
+                    display: $ds-flex;
+                    justify-content: $jc-center;
+                    align-items: $ai-center;
+                    padding: 2px 0;
+                    color: $dark;
+                    border:1px solid $dark;
+                }
+                .close{
+                    display: none;
+                    &.active{
+                        display: block;
+                    }
+                }
             }
-            .drop-down{
-                background: $white;
-                border:1px solid $dark;
-                display: $ds-flex;
-                justify-content: $jc-center;
-                align-items: $ai-center;
-                padding: 2px 0;
-                color: $dark;
-            }
+            
+            
             img{
                 display: none;
             }
