@@ -1,0 +1,110 @@
+.content .container{
+    .tab{
+        margin: 8px 0 16px 0;
+        .page{
+            font-size: 16px;
+            line-height: 24px;
+            .on-page{
+                color: $danger;
+                font-weight: bolder;
+            }
+        }
+    }
+    .label-wrap .label{
+        font-size: 24px;
+        line-height: 36px;
+        color: $danger;
+        font-weight: bolder;        
+    }
+    .d-flex .left{
+        width: 70%;
+        .left-title{
+            font-size: 48px;
+            line-height: 65px;
+            font-weight: bolder;
+        }
+        .d-flex{
+            align-items: $ai-center;
+            .left{
+                font-size: 28px;
+                line-height: 42px;
+            }
+            .right{
+                text-align: right;
+                font-size: 16px;
+                line-height: 24px;
+            }
+        }
+        .my-24{
+            width: 100%;
+            height: 472px;
+            margin: 24px 0;
+        }
+        .left-text{
+            font-size: 20px;
+            line-height: 30px;
+            margin-bottom: 40px;
+            .mb-20{
+                margin-bottom: 20px;
+            }
+        }
+        .left-text:last-child{
+            margin-bottom: 48px;            
+        }
+        .mb-24{
+            margin-bottom: 24px;
+        }
+        .icon{
+            display: $ds-flex;
+            margin-bottom: 14px;
+            .fb{
+                margin: 0 16px;
+            }
+            .shore{
+                font-size: 20px;
+            }
+        }
+        .page{
+            display: $ds-flex;
+            justify-content: $jc-between;
+            align-items: $ai-center;
+            margin-bottom: 156px;
+            .before-text,.next-text{
+                font-size: 20px;
+                line-height: 30px;
+            }
+            .before-text{
+                margin-left: 8px;
+            }
+            .next-text{
+                margin-right: 8px;
+            }
+            img{
+                width: 24px;
+                height: 21px;
+            }
+        }
+    }
+    .d-flex .right{
+        width: 25%;
+        .tags{
+            font-size: 28px;
+            line-height: 42px;
+            display: $ds-flex;
+            font-weight: bolder;
+            color: $danger;
+            .mr-8{
+                margin-right: 8px;
+            }
+        }
+        .tag{
+            font-size: 24px;
+            line-height: 36px;
+            color: $danger;
+            font-weight: bolder;
+            .mr-24{
+                margin-right: 24px;
+            }
+        }
+    }
+}

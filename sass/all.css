@@ -1939,11 +1939,11 @@ a {
   display: none;
 }
 
-.content {
+.py-88 {
   padding: 88px 0 156px 0;
 }
 
-.content .container .card {
+.py-88 .container .card {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1953,25 +1953,25 @@ a {
   margin-bottom: 60px;
 }
 
-.content .container .card img {
+.py-88 .container .card img {
   margin-right: 24px;
 }
 
-.content .container .card .d-md-none {
+.py-88 .container .card .d-md-none {
   display: none;
 }
 
-.content .container .card .text {
+.py-88 .container .card .text {
   width: 50%;
 }
 
-.content .container .card .text .t-title {
+.py-88 .container .card .text .t-title {
   color: #650300;
   font-size: 32px;
   line-height: 63px;
 }
 
-.content .container .card .text .d-flex {
+.py-88 .container .card .text .d-flex {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -1981,24 +1981,24 @@ a {
   margin-bottom: 40px;
 }
 
-.content .container .card .text .d-flex .title-small {
+.py-88 .container .card .text .d-flex .title-small {
   font-size: 20px;
   line-height: 30px;
 }
 
-.content .container .card .text .d-flex .time {
+.py-88 .container .card .text .d-flex .time {
   font-size: 16px;
   line-height: 24px;
 }
 
-.content .container .card .text .text-content {
+.py-88 .container .card .text .text-content {
   font-size: 20px;
   line-height: 30px;
   color: #555555;
   margin-bottom: 32px;
 }
 
-.content .container .card .text .more {
+.py-88 .container .card .text .more {
   color: #000;
   display: block;
   font-size: 36px;
@@ -2007,11 +2007,11 @@ a {
   text-align: right;
 }
 
-.content .container .card:last-child {
+.py-88 .container .card:last-child {
   margin-bottom: 88px;
 }
 
-.content .container .mb-0 {
+.py-88 .container .mb-0 {
   margin-bottom: 0;
 }
 
@@ -2025,39 +2025,39 @@ a {
   .navbar-bg .container .list {
     width: 60%;
   }
-  .content {
+  .py-88 {
     padding: 40px 0 104px 0;
   }
-  .content .container .card {
+  .py-88 .container .card {
     margin-bottom: 32px;
   }
-  .content .container .card img {
+  .py-88 .container .card img {
     width: 324px;
   }
-  .content .container .card .text .t-title {
+  .py-88 .container .card .text .t-title {
     font-size: 20px;
     line-height: 30px;
   }
-  .content .container .card .text .d-flex {
+  .py-88 .container .card .text .d-flex {
     margin-bottom: 16px;
   }
-  .content .container .card .text .d-flex .title-small {
+  .py-88 .container .card .text .d-flex .title-small {
     font-size: 16px;
     line-height: 20px;
   }
-  .content .container .card .text .d-flex .time {
+  .py-88 .container .card .text .d-flex .time {
     font-size: 14px;
     line-height: 20px;
   }
-  .content .container .card .text .text-content {
+  .py-88 .container .card .text .text-content {
     font-size: 14px;
     line-height: 20px;
     margin: 0;
   }
-  .content .container .card .text .more {
+  .py-88 .container .card .text .more {
     display: none;
   }
-  .content .container .card:last-child {
+  .py-88 .container .card:last-child {
     margin-bottom: 52px;
   }
 }
@@ -2121,42 +2121,189 @@ a {
   .navbar-bg .container img {
     display: none;
   }
-  .content {
+  .py-88 {
     padding: 50px 0 56px 0;
   }
-  .content .container .card {
+  .py-88 .container .card {
     margin-bottom: 24px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .content .container .card .d-sm-none {
+  .py-88 .container .card .d-sm-none {
     display: none;
   }
-  .content .container .card .d-md-none {
+  .py-88 .container .card .d-md-none {
     display: block;
     margin-right: 0;
     margin-bottom: 8px;
   }
-  .content .container .card .text {
+  .py-88 .container .card .text {
     width: 100%;
   }
-  .content .container .card .text .t-title {
+  .py-88 .container .card .text .t-title {
     font-size: 16px;
     line-height: 20px;
   }
-  .content .container .card .text .d-flex {
+  .py-88 .container .card .text .d-flex {
     margin-bottom: 0;
   }
-  .content .container .card .text .d-flex .title-small {
+  .py-88 .container .card .text .d-flex .title-small {
     font-size: 14px;
   }
-  .content .container .card .text .text-content {
+  .py-88 .container .card .text .text-content {
     display: none;
   }
-  .content .container .card:last-child {
+  .py-88 .container .card:last-child {
     margin-bottom: 40px;
   }
+}
+
+.content .container .tab {
+  margin: 8px 0 16px 0;
+}
+
+.content .container .tab .page {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.content .container .tab .page .on-page {
+  color: #AA0601;
+  font-weight: bolder;
+}
+
+.content .container .label-wrap .label {
+  font-size: 24px;
+  line-height: 36px;
+  color: #AA0601;
+  font-weight: bolder;
+}
+
+.content .container .d-flex .left {
+  width: 70%;
+}
+
+.content .container .d-flex .left .left-title {
+  font-size: 48px;
+  line-height: 65px;
+  font-weight: bolder;
+}
+
+.content .container .d-flex .left .d-flex {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.content .container .d-flex .left .d-flex .left {
+  font-size: 28px;
+  line-height: 42px;
+}
+
+.content .container .d-flex .left .d-flex .right {
+  text-align: right;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.content .container .d-flex .left .my-24 {
+  width: 100%;
+  height: 472px;
+  margin: 24px 0;
+}
+
+.content .container .d-flex .left .left-text {
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 40px;
+}
+
+.content .container .d-flex .left .left-text .mb-20 {
+  margin-bottom: 20px;
+}
+
+.content .container .d-flex .left .left-text:last-child {
+  margin-bottom: 48px;
+}
+
+.content .container .d-flex .left .mb-24 {
+  margin-bottom: 24px;
+}
+
+.content .container .d-flex .left .icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 14px;
+}
+
+.content .container .d-flex .left .icon .fb {
+  margin: 0 16px;
+}
+
+.content .container .d-flex .left .icon .shore {
+  font-size: 20px;
+}
+
+.content .container .d-flex .left .page {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 156px;
+}
+
+.content .container .d-flex .left .page .before-text, .content .container .d-flex .left .page .next-text {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.content .container .d-flex .left .page .before-text {
+  margin-left: 8px;
+}
+
+.content .container .d-flex .left .page .next-text {
+  margin-right: 8px;
+}
+
+.content .container .d-flex .left .page img {
+  width: 24px;
+  height: 21px;
+}
+
+.content .container .d-flex .right {
+  width: 25%;
+}
+
+.content .container .d-flex .right .tags {
+  font-size: 28px;
+  line-height: 42px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-weight: bolder;
+  color: #AA0601;
+}
+
+.content .container .d-flex .right .tags .mr-8 {
+  margin-right: 8px;
+}
+
+.content .container .d-flex .right .tag {
+  font-size: 24px;
+  line-height: 36px;
+  color: #AA0601;
+  font-weight: bolder;
+}
+
+.content .container .d-flex .right .tag .mr-24 {
+  margin-right: 24px;
 }
 /*# sourceMappingURL=all.css.map */
