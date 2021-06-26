@@ -43,7 +43,8 @@
                     font-size: 32px;
                     line-height: 63px;
                 }
-                .d-flex{
+                .d-sm-flex{
+                    display: $ds-flex;
                     justify-content: $jc-between;
                     align-items: $ai-center;
                     margin-bottom: 40px;
@@ -62,6 +63,9 @@
                     // text-align: justify;
                     color: $btn-color;
                     margin-bottom: 32px;
+                    .more-md{
+                        display: none;
+                    }
                 }
                 .more{
                     color: $dark;
@@ -98,14 +102,15 @@
             .card{
                 margin-bottom: 32px;
                 img{
-                    width: 324px;
+                    width: 100%;
+                    margin: 0;
                 }
                 .text {
                     .t-title{
                         font-size: 20px;
                         line-height: 30px;
                     }
-                    .d-flex{
+                    .d-sm-flex{
                         margin-bottom: 16px;
                         .title-small{
                             font-size: 16px;
@@ -120,6 +125,9 @@
                         font-size: 14px;
                         line-height: 20px;
                         margin: 0;
+                        .more-md{
+                            display: inline-block;
+                        }
                     }
                     .more{
                         display: none;
