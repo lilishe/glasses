@@ -13,4 +13,8 @@ $(document).ready(function () {
     $('.group a').click(function(e){
         e.preventDefault();
     });
+    $('.topic').click(function(e){
+        e.preventDefault();
+        $(this).parent().find('.key').slideToggle();
+    });
 });

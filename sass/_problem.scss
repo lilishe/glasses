@@ -1,0 +1,107 @@
+.store-banner .container .d-flex{
+    .problem{
+        font-size: 64px;
+        line-height: 80px;
+        margin-right: 10px;
+    }
+
+}
+.content .container{
+    .problem-title{
+        font-size: 32px;
+        line-height: 40px;
+        margin-bottom: 16px;
+    }
+    .problem-list li{
+        .topic{
+            font-size: 20px;
+            line-height: 23px;
+            border:1px solid $dark;
+            padding: 22px 38px;
+            cursor: pointer;
+            display: $ds-flex;
+            align-items: $ai-center;
+            justify-content: $jc-between;
+            .size{
+                width: 38.94px;
+                height: 24px;
+            }
+        }
+        .key{
+            border:1px solid $dark;
+            padding: 22px 246px 22px 38px;
+            font-size: 16px;
+            line-height: 24px;
+            background: $secondary-light;
+            display: none;
+        }
+    }
+}
+
+@media(max-width:768px){
+    .store-banner .container .d-flex{
+        .problem{
+            font-size: 48px;
+            line-height: 60px;
+            margin-right: 16px;
+        }
+        .problem-img{
+            width: 48px;
+            height: 48px;
+        }
+    
+    }
+    .content .container{
+        .problem-title{
+            font-size: 28px;
+            line-height: 36px;
+            margin-bottom: 32px;
+        }
+        .problem-list li{
+            .topic{
+                font-size: 16px;
+                line-height: 20px;
+                padding: 16px 24px;
+            }
+            .key{
+                padding: 16px 24px;
+                font-size: 14px;
+                line-height: 21px;
+            }
+        }
+    }
+}
+
+@media (max-width:767px){
+    .store-banner .container .d-flex{
+        .problem{
+            font-size: 28px;
+            line-height: 36px;
+            margin-right: 8px;
+        }
+        .problem-img{
+            width: 24px;
+            height: 24px;
+        }
+    
+    }
+    .py-24{
+        padding: 24px 0 56px 0;
+    }
+    .content .container{
+        .problem-title{
+            font-size: 20px;
+            line-height: 28px;
+            margin-bottom: 16px;
+        }
+        .problem-list li{
+            .topic{
+                padding: 16px 16px;
+            }
+            .key{
+                padding: 16px;
+            }
+        }
+    }
+    
+}

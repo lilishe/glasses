@@ -2496,4 +2496,100 @@ a {
     margin-right: 8px;
   }
 }
+
+.store-banner .container .d-flex .problem {
+  font-size: 64px;
+  line-height: 80px;
+  margin-right: 10px;
+}
+
+.content .container .problem-title {
+  font-size: 32px;
+  line-height: 40px;
+  margin-bottom: 16px;
+}
+
+.content .container .problem-list li .topic {
+  font-size: 20px;
+  line-height: 23px;
+  border: 1px solid #000;
+  padding: 22px 38px;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.content .container .problem-list li .topic .size {
+  width: 38.94px;
+  height: 24px;
+}
+
+.content .container .problem-list li .key {
+  border: 1px solid #000;
+  padding: 22px 246px 22px 38px;
+  font-size: 16px;
+  line-height: 24px;
+  background: #f2f2f2;
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .store-banner .container .d-flex .problem {
+    font-size: 48px;
+    line-height: 60px;
+    margin-right: 16px;
+  }
+  .store-banner .container .d-flex .problem-img {
+    width: 48px;
+    height: 48px;
+  }
+  .content .container .problem-title {
+    font-size: 28px;
+    line-height: 36px;
+    margin-bottom: 32px;
+  }
+  .content .container .problem-list li .topic {
+    font-size: 16px;
+    line-height: 20px;
+    padding: 16px 24px;
+  }
+  .content .container .problem-list li .key {
+    padding: 16px 24px;
+    font-size: 14px;
+    line-height: 21px;
+  }
+}
+
+@media (max-width: 767px) {
+  .store-banner .container .d-flex .problem {
+    font-size: 28px;
+    line-height: 36px;
+    margin-right: 8px;
+  }
+  .store-banner .container .d-flex .problem-img {
+    width: 24px;
+    height: 24px;
+  }
+  .py-24 {
+    padding: 24px 0 56px 0;
+  }
+  .content .container .problem-title {
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 16px;
+  }
+  .content .container .problem-list li .topic {
+    padding: 16px 16px;
+  }
+  .content .container .problem-list li .key {
+    padding: 16px;
+  }
+}
 /*# sourceMappingURL=all.css.map */
