@@ -12,7 +12,8 @@
         "_productSun.scss",
         "_store.scss",
         "_blog.scss",
-        "_blog-velentine.scss"
+        "_blog-velentine.scss",
+        "_problem.scss"
     ],
     "names": [],
     "file": "all.css"
